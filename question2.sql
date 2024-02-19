@@ -1,0 +1,1 @@
+SELECT DISTINCT ON (Site) * FROM services ORDER BY Site, (Service_type = 'UNI') DESC;

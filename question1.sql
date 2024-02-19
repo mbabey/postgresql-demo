@@ -1,0 +1,1 @@
+SELECT ROW_NUMBER() OVER(PARTITION BY Site) AS index FROM services;
